@@ -1,3 +1,8 @@
+const config = {
+  mode: 'development', // Add this line
+  // ... rest of your existing config
+};
+module.exports = config;
 const path = require('path');
 
 module.exports = {
